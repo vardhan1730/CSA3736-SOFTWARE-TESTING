@@ -1,0 +1,34 @@
+package day1;
+
+import java.util.Scanner;
+
+public class SQR_CUBE {
+	private static Object a;
+	private static Object b;
+
+	public static void main(String[] args) 
+	{ 
+	try{ 
+	Scanner s=new Scanner(System.in); 
+	System.out.println("Enter an number"); 
+	double n=s.nextDouble(); 
+	double a=0,b=0; 
+	a=n*n; 
+	b=n*n*n; 
+	System.out.println("The square of number="+a); 
+	System.out.println("The cube of number="+b); 
+	} 
+	catch(Exception e) 
+	{ 
+	System.out.println("Invalid"); 
+	} 
+	Object expected = null;
+	assertTrue(expected ==a);
+	assertTrue(expected ==b);
+}
+
+	private static void assertTrue(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+}
