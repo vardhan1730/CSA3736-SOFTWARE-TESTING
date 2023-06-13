@@ -1,0 +1,28 @@
+package day1;
+
+import java.util.Scanner;
+
+public class BINARY_AND_OCTAL {
+	@SuppressWarnings("resource")
+	public static void main(String[] args) 
+	{ Scanner in = new Scanner(System.in); 
+	// decimal number
+	int decimal = in.nextInt(); 
+	// convert decimal to binary
+	String binary = Integer.toBinaryString(decimal); 
+	
+	System.out.println("BINARY IS " + binary); 
+	//convert decimal to octal
+	System.out.print("OCTAL IS "); 
+	System.out.println(Integer.toOctalString(decimal));
+	//assertEqual("1100" , binary);
+	assertTrue(14== decimal);
+
+
+}
+
+	private static void assertTrue(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+}
